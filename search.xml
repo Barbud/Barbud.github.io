@@ -1,22 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>记录搭建这个博客中遇到的问题及处理方法</title>
-    <url>/2021/03/24/hello-world/</url>
-    <content><![CDATA[<p>使用系统 :MACOS<br>搭建这个博客的目的是记录 分享 学习。</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><p>我第一步是先申请的Github账号然后建立了仓库；<br>然后在终端<br>安装Git<br>安装Node.js<br>安装Hexo<br>然后通过本地发布的文章托管到Githubpage建立连接后发布文章<br>这样一个简单小型的博客就这样建成了<br>中途遇到了两个问题：一个是托管到github仓库的时候选择的分支是仓库内的文件，这样本地的博客就不能与仓库内的同步。<br>把分支修改为仓库内以后本地的文章就同步到了github页面。<br>第二个问题是启用本地next主题出现了乱码，不启用next却显示正常。先用hexo自带的主题进行测试发现没有问题，启用了next出现了乱码现象。初步判断是utf-8编码错误排除后不是。<br>检查hexo与next版本后发现是next版本6.0 hexo版本5.6不匹配。升级版本后解决了问题。</p>
-<span id="more"></span>
-
-
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2021/03/26/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%AD%8C%E8%AF%8D/</url>
-    <content><![CDATA[<h2 id="这是我超喜欢的一首歌"><a href="#这是我超喜欢的一首歌" class="headerlink" title="这是我超喜欢的一首歌."></a>这是我超喜欢的一首歌.</h2><h2 id="title-inside-Out"><a href="#title-inside-Out" class="headerlink" title="title: inside Out"></a>title: inside Out</h2><p>Time’s gone inside out<br>时间彻底流逝了<br>Time gets distorted when<br>在强烈的引力下<br>There’s intense gravity<br>变得扭曲<br>I don’t got time for holy rollers<br>没空陪那些狂热教徒（<br>Though then they wash my feet<br>就算他们愿意给我洗脚<br>And I won’t be their soldier<br>我也不愿意成为他们的一员</p>
-<p>There’s intense gravity<br>强烈的引力<br>Yeah, there’s intense gravity<br>我感到强烈的引力<br>I’m just your satellite<br>我就是绕着你转的卫星啊<br>I’m just your satellite<br>我就是绕着你转的卫星啊<br>Ooh, and I know that time’s gone inside out<br>噢 我知道时间彻底流逝了<br>And now it’s only like we told you<br>就好像他们说 “早就告诉过你了”<br>Mmm, oh then they wash my feet<br>然后他们要给我洗脚<br>They do not make me complete<br>但他们不能排解我的空虚</p>
-<p>Break out of character for me<br>在我面前 跳出角色吧<br>Time keeps on going when<br>时间继续流逝<br>We got nothing else to give<br>我们什么也做不了<br>We got nothing else to give<br>我们什么也做不了<br>Ooh, cause time’s gone inside out<br>时间彻底流逝了<br>I don’t make time for holy rollers<br>没空陪那些狂热教徒<br>Mmm, there’s only you I need<br>因为我只需要你<br>They do not make me complete<br>他们不能排解我的空虚
- </p>
-]]></content>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>categories</title>
+      <link href="2021/03/26/categories/"/>
+      <url>2021/03/26/categories/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="2021/03/26/tags/"/>
+      <url>2021/03/26/tags/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="2021/03/26/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%AD%8C%E8%AF%8D/"/>
+      <url>2021/03/26/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%AD%8C%E8%AF%8D/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我超喜欢的一首歌"><a href="#这是我超喜欢的一首歌" class="headerlink" title="这是我超喜欢的一首歌."></a>这是我超喜欢的一首歌.</h2><h2 id="title-inside-Out"><a href="#title-inside-Out" class="headerlink" title="title: inside Out"></a>title: inside Out</h2><p>Time’s gone inside out<br>时间彻底流逝了<br>Time gets distorted when<br>在强烈的引力下<br>There’s intense gravity<br>变得扭曲<br>I don’t got time for holy rollers<br>没空陪那些狂热教徒（<br>Though then they wash my feet<br>就算他们愿意给我洗脚<br>And I won’t be their soldier<br>我也不愿意成为他们的一员</p><p>There’s intense gravity<br>强烈的引力<br>Yeah, there’s intense gravity<br>我感到强烈的引力<br>I’m just your satellite<br>我就是绕着你转的卫星啊<br>I’m just your satellite<br>我就是绕着你转的卫星啊<br>Ooh, and I know that time’s gone inside out<br>噢 我知道时间彻底流逝了<br>And now it’s only like we told you<br>就好像他们说 “早就告诉过你了”<br>Mmm, oh then they wash my feet<br>然后他们要给我洗脚<br>They do not make me complete<br>但他们不能排解我的空虚</p><p>Break out of character for me<br>在我面前 跳出角色吧<br>Time keeps on going when<br>时间继续流逝<br>We got nothing else to give<br>我们什么也做不了<br>We got nothing else to give<br>我们什么也做不了<br>Ooh, cause time’s gone inside out<br>时间彻底流逝了<br>I don’t make time for holy rollers<br>没空陪那些狂热教徒<br>Mmm, there’s only you I need<br>因为我只需要你<br>They do not make me complete<br>他们不能排解我的空虚 </p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记录搭建这个博客中遇到的问题及处理方法</title>
+      <link href="2021/03/24/hello-world/"/>
+      <url>2021/03/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>使用系统 :MACOS<br>搭建这个博客的目的是记录 分享 学习。</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><p>我第一步是先申请的Github账号然后建立了仓库；<br>然后在终端<br>安装Git<br>安装Node.js<br>安装Hexo<br>然后通过本地发布的文章托管到Githubpage建立连接后发布文章<br>这样一个简单小型的博客就这样建成了<br>中途遇到了两个问题：一个是托管到github仓库的时候选择的分支是仓库内的文件，这样本地的博客就不能与仓库内的同步。<br>把分支修改为仓库内以后本地的文章就同步到了github页面。<br>第二个问题是启用本地next主题出现了乱码，不启用next却显示正常。先用hexo自带的主题进行测试发现没有问题，启用了next出现了乱码现象。初步判断是utf-8编码错误排除后不是。<br>检查hexo与next版本后发现是next版本6.0 hexo版本5.6不匹配。升级版本后解决了问题。</p><span id="more"></span>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
