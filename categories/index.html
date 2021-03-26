@@ -79,15 +79,15 @@
 
 
 
-<meta name="description" content="直线属于人类，曲线属于上帝">
+<meta name="description" content="数据是对客观事物的符号表示， 数据元素（节点）：数据的基本单位，在程序中通常作为一个整体进行考虑和处理。一个数据元素可以由若干个数据项组成。数据项：具有独立含义的最小标识单位。例如，一条数据记录可以称为一个数据元素，数据记录的某个字段就是一个数据项。数据结构：相互之间存在一种或多种特点关系的数据元素的集合。 数据的逻辑结构：数据元素与数据元素之间的逻辑关系。可以分为四类基本结构： 集合：结构中的数">
 <meta property="og:type" content="website">
-<meta property="og:title" content="categories">
+<meta property="og:title" content="数据结构一">
 <meta property="og:url" content="http://example.com/categories/index.html">
 <meta property="og:site_name" content="康斯坦丁">
-<meta property="og:description" content="直线属于人类，曲线属于上帝">
+<meta property="og:description" content="数据是对客观事物的符号表示， 数据元素（节点）：数据的基本单位，在程序中通常作为一个整体进行考虑和处理。一个数据元素可以由若干个数据项组成。数据项：具有独立含义的最小标识单位。例如，一条数据记录可以称为一个数据元素，数据记录的某个字段就是一个数据项。数据结构：相互之间存在一种或多种特点关系的数据元素的集合。 数据的逻辑结构：数据元素与数据元素之间的逻辑关系。可以分为四类基本结构： 集合：结构中的数">
 <meta property="og:locale">
 <meta property="article:published_time" content="2021-03-26T10:53:10.000Z">
-<meta property="article:modified_time" content="2021-03-26T10:53:10.921Z">
+<meta property="article:modified_time" content="2021-03-26T11:57:18.287Z">
 <meta property="article:author" content="李森">
 <meta property="article:tag" content="Code，Blog，peace&amp;love">
 <meta name="twitter:card" content="summary">
@@ -126,7 +126,7 @@
 
 
 
-  <title>categories | 康斯坦丁</title>
+  <title>数据结构一 | 康斯坦丁</title>
   
 
 
@@ -256,7 +256,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">categories</h1>
+	<h1 class="post-title" itemprop="name headline">数据结构一</h1>
 
 
 
@@ -268,7 +268,22 @@
       <div class="post-body">
         
         
-          
+          <p>数据是对客观事物的符号表示，</p>
+<p>数据元素（节点）：数据的基本单位，在程序中通常作为一个整体进行考虑和处理。一个数据元素可以由若干个数据项组成。<br>数据项：具有独立含义的最小标识单位。例如，一条数据记录可以称为一个数据元素，数据记录的某个字段就是一个数据项。<br>数据结构：相互之间存在一种或多种特点关系的数据元素的集合。</p>
+<p>数据的逻辑结构：数据元素与数据元素之间的逻辑关系。可以分为四类基本结构：</p>
+<p>集合：结构中的数据元素属于一个集合（集合类型元素之间过于松散）<br>线性结构：结构中的数据元素存在一对一的关系<br>树形结构：结构中的数据元素存在一对多的关系<br>图形结构：结构中的数据元素存在多对多的关系<br>四种基本的存储结构：顺序存储、链式存储、索引存储、散列存储<br>1、顺序存储结构</p>
+<p>顺序存储结构是把逻辑上相邻的元素存储在一组连续的存储单元中，其元素之间的逻辑关系由存储单元地址间的关系隐含表示。</p>
+<p>优点：节省存储空间，只需要存储数据结点，并不需要存储结点的逻辑关系。<br>缺点：不便于修改，插入和删除某个结点需要修改一系列的结点。</p>
+<p>2、链式存储结构</p>
+<p>链式存储结构，给每个结点增加指针字段，用于存放临近结点的存储地址，每个结点占用两个连续的存储单元，一个存放数据，一个存放临近结点（前驱/后继结点）的地址。</p>
+<p>优点：便于修改，修改时只需要修改结点的指针字段，不需要移动其他结点。<br>缺点：占用存储空间，因为需要存储结点之间的逻辑关系。因为结点之间不一定相邻，因此不能对结点进行随机访问。</p>
+<p>3、索引存储结构</p>
+<p>索引存储结构即在存储结点的同时，增加索引表，索引表的索引项为：（关键字，地址），关键字标识结点，地址为结点的指针。各结点的地址在索引表中是依次排列的。</p>
+<p>优点：可以快速查找，可以随机访问，方便修改。<br>缺点：建立索引表增加了时间和空间的开销。</p>
+<p>4、散列存储结构</p>
+<p>散列存储结构是根据结点的值确定结点的存储地址。以结点作为自变量，通过散列函数算出结果i，再把i作为结点的存储地址。</p>
+<p>优点：查找速度快，适用于快速查找和插入的场景。<br>缺点：只存结点数据，不存结点之间的关系。</p>
+
         
       </div>
       
