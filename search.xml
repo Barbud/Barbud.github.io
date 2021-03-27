@@ -9,4 +9,10 @@
 <span id="more"></span>
 ]]></content>
   </entry>
+  <entry>
+    <title>2021-3.27随笔</title>
+    <url>/2021/03/27/2021-3-27%E6%84%9F%E6%83%B3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>   这两天在图书馆搭建这个blog之后，在回去的路上我思考了很多，从刚开始一步一步搭建到现在的成型，出现的每一个<br>bug，在这个过程中，挖坑，然后填埋。<br>   首先搭blog第一个启用的版本是Next主题，我搜了很多教程发现大部分博主在搭建完成后都停更了。在之后<br>浏览博客的时候看到了jerry制作的主题-butterfly，git测试后发现是我喜欢的类型，于是今天晚上启用了<br>这个主题。<br>  其实在搭建的过程中，只要理解了开发者文档，搭建上手起来时很容易的，而我搭建next主题的时候大多数看的别的博主<br>  的教程，根据别人的理解来转化为自己的认知。于是我在搭建butterfly主题的时候根据开发者文档来完成的，在不断的<br>  搭建删库修复bug下，此刻我在看文档中的代码就不是那么陌生了。<br>  这两天就好像有一股无形的力量来吸引我慢慢做下去，享受搭建的过程。<br>  周六晚上的图书馆没有往常的人气，13楼的人数屈指可数，我<br>  听着spoon的inside out完成了博客雏形的最后一步。<br>  开个玩笑，用心做技术，用脚做产品哈哈哈哈</p>
+]]></content>
+  </entry>
 </search>
