@@ -1,59 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>郭源潮</title>
-      <link href="2021/03/29/%E9%83%AD%E6%BA%90%E6%9C%94/"/>
-      <url>2021/03/29/%E9%83%AD%E6%BA%90%E6%9C%94/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>作词 : 宋冬野<br>作曲 : 宋冬野<br>你说你知道他们的世界<br>悲歌三首买一切<br>买昆仑落脚 蓬莱放思想<br>买人们的争执酿酒汤<br>买公主坟的乌鸦<br>事发之木和东窗之麻<br>买胭脂河里船行渔歌<br>黄金世界中万物法则<br>你我都一样 将被遗忘 郭源潮<br>你的病也和我的一样 风月难扯 离合不骚<br>层楼终究误少年 自由早晚乱余生<br>你我山前没相见 山后别相逢<br>买石灰街车站的海鸥<br>山水禽兽和年少一梦<br>买太平湖底陈年水墨<br>哥本哈根的童年传说<br>其实你我都一样 终将被遗忘 郭源潮<br>你的病也和我的一样 风月难扯 离合不骚<br>层楼终究误少年 自由早晚乱余生<br>你我山前没相见 山后别相逢<br>其实你我都一样 终将被遗忘 郭源潮<br>你的病也和我一样 风月难扯 离合不骚<br>层楼终究误少年 自由早晚乱余生<br>你我山前没相见 山后别相逢<br>你我山前没相见 山后别相逢<br>你我山前没相见 山后别相逢<br>歌有感想，不知无处安放，浮沉人生，叶落归根<br>自由早晚乱余生.</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>何去何从</title>
-      <link href="2021/03/28/%E4%BD%95%E5%8E%BB%E4%BD%95%E4%BB%8E/"/>
-      <url>2021/03/28/%E4%BD%95%E5%8E%BB%E4%BD%95%E4%BB%8E/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><pre><code>         Linux          ab</code></pre><p>Apache服务器的性能测试工具</p><p>补充说明<br>ab命令 是一个测试你 Apache http 服务器的工具，你可以通过这个工具，指定一个单位时间内向 apache 发出的请求数量来看看你的 Apache 和机器配合的性能如何。</p><p>语法<br>ab [ -A auth-username:password ] [ -c concurrency ] [ -C cookie-name=value<br>] [ -d ] [ -e csv-file ] [ -g gnuplot-file ] [ -h ] [ -H custom-header ] [<br>-i  ]  [  -k  ]  [  -n  requests  ] [ -p POST-file ] [ -P proxy-auth-user‐<br>name:password ] [ -q ] [ -s ] [ -S ] [ -t timelimit ] [ -T content-type  ]<br>[  -v verbosity] [ -V ] [ -w ] [ -x <table>-attributes ] [ -X proxy[:port]<br>]  [  -y  <tr>-attributes  ]  [  -z   <td>-attributes   ]   [http://]host‐<br>name[:port]/path<br>选项<br>-A auth-username:password<br>      #  支持基本的验证证书,用户名和密码之间使用”冒号”                    :<br>      # 分隔开,ab将以明文方式传送过去.不管服务器是不是需要<br>      # ,也就是说你的服务器需要支持401认证.<br>-c concurrency<br>      # 同时向服务器端发送的请求数目，默认状态下是一次 只执行一个http请求.<br>-C cookie-name=value<br>      # Add a Cookie: line to the request. The argument is typically in the<br>      # form of a name=value pair. This field is repeatable.<br>-d    #  Do not display  the  “percentage  served  within  XX  [ms]  table”.<br>      # (legacy support).<br>-e csv-file<br>      # Write  a  Comma  separated value (CSV) file which contains for each<br>      # percentage (from 1% to 100%) the time (in milli seconds) it took to<br>      # serve  that percentage of the requests. This is usually more useful<br>      # than the ‘gnuplot’ file; as the results are already ‘binned’.<br>-g gnuplot-file<br>      # Write all measured values out as a ‘gnuplot’ or TSV  (Tab  separate<br>      # values)  file.  This file can easily be imported into packages like<br>      # Gnuplot, IDL, Mathematica, Igor or even Excell. The labels  are  on<br>      # the first line of the file.<br>-h    # 显示使用说明<br>-H custom-header<br>      # 向请求包追加附加的标题字串.此参数应该是有效的标题         行(header<br>      # line)形式,通常使用冒号”:”来分隔有效配对 (valid  pair)例如  ‘Accept-<br>      # Encoding: zip/zop;8 bit’;<br>-i    # 使用一个 http 头(HEAD) 来替换 GET方法.不可以掺入POST 方法<br>-k    #  允许http      KeepAlive      ；也就是说执行多个请求在一个      http<br>      # 会话当中，默认是不允许的也就是no KeepAlive啦;)<br>-n requests<br>      # 执行一次测试会话的时候所发出的请求数目,默认是执行一个单一的请求<br>      # 当然了这样的测试结果也就没什么意义了<br>-p POST-file<br>      # 测试程序也就是ab,将向Apache server发送带有HTTP POST 的请求.<br>-P proxy-auth-username:password<br>      # 当需要通过代理测试一台 HTTP 服务器的时候而你的代理<br>      # 又需要用户名密码验证,这时你可以使用这个选项,同样<br>      # 用户名与密码之间使用冒号”:”分隔开,ab将之以明文的方式<br>      # 发送出去,当然,前提是你的代理是处于407认证状态的<br>-q    #  When processing more than 150 requests, ab outputs a progress count<br>      # on  stderr  every  10% or 100 requests or so. The -q flag will sup‐<br>      # press these messages.<br>-s    #  When compiled in (ab -h will show you) use the SSL protected  https<br>      # rather  than  the  http  protocol. This feature is experimental and<br>      # very rudimentary. You probably do not want to use it.<br>-S    #  Do not display the median and standard deviation values,  nor  dis‐<br>      # play  the  warning/error  messages  when the average and median are<br>      # more than one or two times the standard deviation  apart.  And  de‐<br>      # fault to the min/avg/max values. (legacy support).<br>-t timelimit<br>      #  设置测试的时间的长短，使用这个选项ab将自动设置<br>      # 测试请求会话数目为50000，然后以你设置的时间为<br>      # 固定周期.默认状态下是没有时限的，也就是直到完成<br>      # 你所设置的请求数目为止.<br>-T content-type<br>      # 内容类型标头,使用在POST数据的时候.<br>-v verbosity<br>      # 设置冗余级别,4级打印出每个请求标头的详细信息,<br>      # 3级打印出回应代码(例如,404,200),2级打印出警告 信息和指示消息<br>-V    # 显示版本号并且退出<br>-w    # 打印输出结果到HTML表中. 默认的表是两列n行白底黑框<br>-x <table>-attributes<br>      # 使用字串来描述表的属性,该属性字串应该插入到&lt;table 这里 &gt;<br>-X proxy[:port]<br>      # Use a proxy server for the requests.<br>-y <tr>-attributes<br>      # 用于生成html表格每行的属性名 (<tr>)<br>-z <td>-attributes<br>      # 用于生成html表格每列的属性名 (<td>)</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>不快乐星球</title>
-      <link href="2021/03/28/%E5%BF%AB%E4%B9%90%E6%98%9F%E7%90%83/"/>
-      <url>2021/03/28/%E5%BF%AB%E4%B9%90%E6%98%9F%E7%90%83/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p> 我有时候快乐，有时候不快乐，大部分时间是一个正常<br>的状态快乐与不快乐之间的中和阶段，于是在ve2x论坛<br>看到了这样的帖子就综合自己的理解写了下来。<br> 小时候的快乐很简单吃到一块很甜的糖就很快乐，<br>长大后发现快乐很简单也很复杂，怎么说呢很尴尬的年纪<br>，我所处的这个阶段，有着各种各样的选择，选择很多，<br>机遇也很多，所以变得无所适从，选择困难症阻碍了我们。<br>或者说，现在的信息流太大，让我们对任何东西都提不起<br>兴趣。在小时候物质匮乏的那个年代简单普通的事物能带<br>给我们极大的精神享受。可是回到现在，小孩子即使选择<br>很多，也会很快的投入到其中一个选择中去享受。<br>  我想到一个很有意思的现象—-或许相关：小时候的时间<br>感和大人的时间感是不同的，小时候时间过的比较慢，长大了<br>时间就会很快。在长大的过程中，随着年龄的增长，我们不<br>自觉地就会形成自己的人设。<br>  这个人设包括了自己的喜好，自己的性格，自己的思想，<br>同时自己的人生正从真实的人设转变成扮演自己的人设的过程<br>—-包括一遍又一遍说服自己接受自己破旧不堪漏洞百出的<br>“思想”，表达自己的“真实自我”（自己的所谓”思想“就是”<br>自我“，而且鬼知道它们是哪里来的，或许是远古时候的真<br>实自我残留下来的，或许是别人塞给自己的，或许是”道德“<br>要求我们的），一遍一遍地告诉自己”喜欢什“，”不喜欢什么“，<br>然后机械地去做自己”喜欢的事“，吃自己”喜欢的食物“，避免”<br>不喜欢的东西“，因为自己”不喜欢“嘛—-然后完全避免尝试<br>自己根本没真正去尝试过的东西（这就很奇怪了，你没尝试过<br>怎么知道自己喜欢还是不喜欢？哦，没尝试过的一律标记为不喜<br>欢，简单又轻松），扮演自己“固有的性格”，好像一个兢兢业业<br>的演员，机械地背着台词按照既定的轨迹行动。<br>  小孩子则不一样，每一天，每个小时，每一分钟对于他们<br>都是新奇的，任何时候他们都投入注意力去感受当下，任何<br>时间都很容易去接受新的知识和新的经验，这也是小孩儿能够<br>快速掌握一门语言的原因）时刻都在成长。<br>  与“乏味的大人”做对比，大人的自我早已停止成长，固<br>化成了“人设”，说的再明确一点，停止更新自己的思想，停止<br>接受新的知识，停止检验和改变自己，就是真实的精神上的死亡”，<br>  那么在“精神死亡”之后，还剩下什么呢？—-最主要的是一<br>遍一遍的重复行动的过程，以及日渐固执地坚持自己的“思想”<br>，因为自己其实并不确信自己的“思想”是正确的，这其实说白<br>了就是撒谎，欺骗自己，欺骗他人，就是这种无法解脱的痛苦过<br>程。而你其实不会觉得这有什么问题，因为这正是 99.9999%<br>的人正在做的事情—-停止改变<br>   固化自己，成为一个“成熟而成功”的人。为什么固化自己<br>的自我是不正确的？因为真的生命是流动和变化的，没有一刻是<br>和上一刻完全一样的，稳定的自我等同于 撒谎。<br>  就像尼采说的，现代人正逐渐使自己变成“手段”而完全遗<br>忘了“目的”。尼采用了很激烈的词语形容这种现象，比如”家畜“，<br>比如”奴隶“。或者换一个其他人会使用的词：“异化”。没有主题<br>的文艺作品，感受不到乐趣的游戏，应付差事的乏味工作， 虚伪<br>的人际关系，算计和计划驱动的人生，这就是现实，你还指望从中<br>发现什么意义和乐趣呢？<br>   真正的乐趣来源于哪里？真正的思想来源于哪里？享受乐趣，<br>产生思想都需要有一个主体—-一个真实的有着极其明确目的的自我。<br>   一个哲学家能够比事物本身更简单地认识事物。那么，什么<br>目的？就是享乐的目的，停止思考，直接去感觉和享受现实，并确信<br>这就是生命的唯一目的。有自己的目的，并享受过程，仅此而已。不<br>是为了一个遥远的美好目标奋斗，不是为了履行自己的责任义务而鞠<br>躬尽瘁，不是求“稳定而幸福的生活”—-你就这么担心自己会饿死吗？<br>也不是为了给自己立一个高大上的人 设—-拿来干嘛，做墓志铭吗？<br>    相信自己的当下，以及享受完全无法预期的未来。<br>        时间足够你爱。</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>这是一个好的开始</title>
-      <link href="2021/03/27/2021-3-27%E6%84%9F%E6%83%B3/"/>
-      <url>2021/03/27/2021-3-27%E6%84%9F%E6%83%B3/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>   这两天在图书馆搭建这个blog之后，<br>在回去的路上我思考了很多，从刚开始一<br>步一步搭建到现在的成型，出现的每一个<br>bug，在这个过程中，挖坑，然后填埋。<br>  首先搭blog第一个启用的版本是Next<br>主题，我搜了很多教程发现大部分博主在<br>搭建完成后都停更了。在之后浏览博客的<br>时候看到了jerry制作的主题-butterfly，<br>git测试后发现是我喜欢的类型，于是今天<br>晚上启用了这个主题。<br>  其实在搭建的过程中，只要理解了开发<br>者文档，搭建上手起来时很容易的，而我<br>搭建next主题的时候大多数看的别的博<br>主的教程，根据别人的理解来转化为自己<br>的认知。于是我在搭建butterfly主题的<br>时候根据开发者文档来完成的，在不断的<br>搭建删库修复bug下，此刻我在看文档中<br>的代码就不是那么陌生了。<br>  这两天就好像有一股无形的力量来吸引<br>我慢慢做下去，享受搭建的过程。<br>  周六晚上的图书馆没有往常的人气，13楼<br>的人数屈指可数，我听着spoon的inside<br>out完成了博客雏形的最后一步。<br>  开个玩笑，用心做技术，用脚做产品哈哈哈哈</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>这是一个好的开始</title>
+    <url>/2021/03/27/2021-3-27%E6%84%9F%E6%83%B3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>   这两天在图书馆搭建这个blog之后，<br>在回去的路上我思考了很多，从刚开始一<br>步一步搭建到现在的成型，出现的每一个<br>bug，在这个过程中，挖坑，然后填埋。<br>  首先搭blog第一个启用的版本是Next<br>主题，我搜了很多教程发现大部分博主在<br>搭建完成后都停更了。在之后浏览博客的<br>时候看到了jerry制作的主题-butterfly，<br>git测试后发现是我喜欢的类型，于是今天<br>晚上启用了这个主题。<br>  其实在搭建的过程中，只要理解了开发<br>者文档，搭建上手起来时很容易的，而我<br>搭建next主题的时候大多数看的别的博<br>主的教程，根据别人的理解来转化为自己<br>的认知。于是我在搭建butterfly主题的<br>时候根据开发者文档来完成的，在不断的<br>搭建删库修复bug下，此刻我在看文档中<br>的代码就不是那么陌生了。<br>  这两天就好像有一股无形的力量来吸引<br>我慢慢做下去，享受搭建的过程。<br>  周六晚上的图书馆没有往常的人气，13楼<br>的人数屈指可数，我听着spoon的inside<br>out完成了博客雏形的最后一步。<br>  开个玩笑，用心做技术，用脚做产品哈哈哈哈</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>不快乐星球</title>
+    <url>/2021/03/28/%E5%BF%AB%E4%B9%90%E6%98%9F%E7%90%83/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p> 我有时候快乐，有时候不快乐，大部分时间是一个正常<br>的状态快乐与不快乐之间的中和阶段，于是在ve2x论坛<br>看到了这样的帖子就综合自己的理解写了下来。<br> 小时候的快乐很简单吃到一块很甜的糖就很快乐，<br>长大后发现快乐很简单也很复杂，怎么说呢很尴尬的年纪<br>，我所处的这个阶段，有着各种各样的选择，选择很多，<br>机遇也很多，所以变得无所适从，选择困难症阻碍了我们。<br>或者说，现在的信息流太大，让我们对任何东西都提不起<br>兴趣。在小时候物质匮乏的那个年代简单普通的事物能带<br>给我们极大的精神享受。可是回到现在，小孩子即使选择<br>很多，也会很快的投入到其中一个选择中去享受。<br>  我想到一个很有意思的现象—-或许相关：小时候的时间<br>感和大人的时间感是不同的，小时候时间过的比较慢，长大了<br>时间就会很快。在长大的过程中，随着年龄的增长，我们不<br>自觉地就会形成自己的人设。<br>  这个人设包括了自己的喜好，自己的性格，自己的思想，<br>同时自己的人生正从真实的人设转变成扮演自己的人设的过程<br>—-包括一遍又一遍说服自己接受自己破旧不堪漏洞百出的<br>“思想”，表达自己的“真实自我”（自己的所谓”思想“就是”<br>自我“，而且鬼知道它们是哪里来的，或许是远古时候的真<br>实自我残留下来的，或许是别人塞给自己的，或许是”道德“<br>要求我们的），一遍一遍地告诉自己”喜欢什“，”不喜欢什么“，<br>然后机械地去做自己”喜欢的事“，吃自己”喜欢的食物“，避免”<br>不喜欢的东西“，因为自己”不喜欢“嘛—-然后完全避免尝试<br>自己根本没真正去尝试过的东西（这就很奇怪了，你没尝试过<br>怎么知道自己喜欢还是不喜欢？哦，没尝试过的一律标记为不喜<br>欢，简单又轻松），扮演自己“固有的性格”，好像一个兢兢业业<br>的演员，机械地背着台词按照既定的轨迹行动。<br>  小孩子则不一样，每一天，每个小时，每一分钟对于他们<br>都是新奇的，任何时候他们都投入注意力去感受当下，任何<br>时间都很容易去接受新的知识和新的经验，这也是小孩儿能够<br>快速掌握一门语言的原因）时刻都在成长。<br>  与“乏味的大人”做对比，大人的自我早已停止成长，固<br>化成了“人设”，说的再明确一点，停止更新自己的思想，停止<br>接受新的知识，停止检验和改变自己，就是真实的精神上的死亡”，<br>  那么在“精神死亡”之后，还剩下什么呢？—-最主要的是一<br>遍一遍的重复行动的过程，以及日渐固执地坚持自己的“思想”<br>，因为自己其实并不确信自己的“思想”是正确的，这其实说白<br>了就是撒谎，欺骗自己，欺骗他人，就是这种无法解脱的痛苦过<br>程。而你其实不会觉得这有什么问题，因为这正是 99.9999%<br>的人正在做的事情—-停止改变<br>   固化自己，成为一个“成熟而成功”的人。为什么固化自己<br>的自我是不正确的？因为真的生命是流动和变化的，没有一刻是<br>和上一刻完全一样的，稳定的自我等同于 撒谎。<br>  就像尼采说的，现代人正逐渐使自己变成“手段”而完全遗<br>忘了“目的”。尼采用了很激烈的词语形容这种现象，比如”家畜“，<br>比如”奴隶“。或者换一个其他人会使用的词：“异化”。没有主题<br>的文艺作品，感受不到乐趣的游戏，应付差事的乏味工作， 虚伪<br>的人际关系，算计和计划驱动的人生，这就是现实，你还指望从中<br>发现什么意义和乐趣呢？<br>   真正的乐趣来源于哪里？真正的思想来源于哪里？享受乐趣，<br>产生思想都需要有一个主体—-一个真实的有着极其明确目的的自我。<br>   一个哲学家能够比事物本身更简单地认识事物。那么，什么<br>目的？就是享乐的目的，停止思考，直接去感觉和享受现实，并确信<br>这就是生命的唯一目的。有自己的目的，并享受过程，仅此而已。不<br>是为了一个遥远的美好目标奋斗，不是为了履行自己的责任义务而鞠<br>躬尽瘁，不是求“稳定而幸福的生活”—-你就这么担心自己会饿死吗？<br>也不是为了给自己立一个高大上的人 设—-拿来干嘛，做墓志铭吗？<br>    相信自己的当下，以及享受完全无法预期的未来。<br>        时间足够你爱。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>何去何从</title>
+    <url>/2021/03/28/%E4%BD%95%E5%8E%BB%E4%BD%95%E4%BB%8E/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><pre><code>         Linux
+          ab
+</code></pre>
+<p>Apache服务器的性能测试工具</p>
+<p>补充说明<br>ab命令 是一个测试你 Apache http 服务器的工具，你可以通过这个工具，指定一个单位时间内向 apache 发出的请求数量来看看你的 Apache 和机器配合的性能如何。</p>
+<p>语法<br>ab [ -A auth-username:password ] [ -c concurrency ] [ -C cookie-name=value<br>] [ -d ] [ -e csv-file ] [ -g gnuplot-file ] [ -h ] [ -H custom-header ] [<br>-i  ]  [  -k  ]  [  -n  requests  ] [ -p POST-file ] [ -P proxy-auth-user‐<br>name:password ] [ -q ] [ -s ] [ -S ] [ -t timelimit ] [ -T content-type  ]<br>[  -v verbosity] [ -V ] [ -w ] [ -x <table>-attributes ] [ -X proxy[:port]<br>]  [  -y  <tr>-attributes  ]  [  -z   <td>-attributes   ]   [http://]host‐<br>name[:port]/path<br>选项<br>-A auth-username:password<br>      #  支持基本的验证证书,用户名和密码之间使用”冒号”                    :<br>      # 分隔开,ab将以明文方式传送过去.不管服务器是不是需要<br>      # ,也就是说你的服务器需要支持401认证.<br>-c concurrency<br>      # 同时向服务器端发送的请求数目，默认状态下是一次 只执行一个http请求.<br>-C cookie-name=value<br>      # Add a Cookie: line to the request. The argument is typically in the<br>      # form of a name=value pair. This field is repeatable.<br>-d    #  Do not display  the  “percentage  served  within  XX  [ms]  table”.<br>      # (legacy support).<br>-e csv-file<br>      # Write  a  Comma  separated value (CSV) file which contains for each<br>      # percentage (from 1% to 100%) the time (in milli seconds) it took to<br>      # serve  that percentage of the requests. This is usually more useful<br>      # than the ‘gnuplot’ file; as the results are already ‘binned’.<br>-g gnuplot-file<br>      # Write all measured values out as a ‘gnuplot’ or TSV  (Tab  separate<br>      # values)  file.  This file can easily be imported into packages like<br>      # Gnuplot, IDL, Mathematica, Igor or even Excell. The labels  are  on<br>      # the first line of the file.<br>-h    # 显示使用说明<br>-H custom-header<br>      # 向请求包追加附加的标题字串.此参数应该是有效的标题         行(header<br>      # line)形式,通常使用冒号”:”来分隔有效配对 (valid  pair)例如  ‘Accept-<br>      # Encoding: zip/zop;8 bit’;<br>-i    # 使用一个 http 头(HEAD) 来替换 GET方法.不可以掺入POST 方法<br>-k    #  允许http      KeepAlive      ；也就是说执行多个请求在一个      http<br>      # 会话当中，默认是不允许的也就是no KeepAlive啦;)<br>-n requests<br>      # 执行一次测试会话的时候所发出的请求数目,默认是执行一个单一的请求<br>      # 当然了这样的测试结果也就没什么意义了<br>-p POST-file<br>      # 测试程序也就是ab,将向Apache server发送带有HTTP POST 的请求.<br>-P proxy-auth-username:password<br>      # 当需要通过代理测试一台 HTTP 服务器的时候而你的代理<br>      # 又需要用户名密码验证,这时你可以使用这个选项,同样<br>      # 用户名与密码之间使用冒号”:”分隔开,ab将之以明文的方式<br>      # 发送出去,当然,前提是你的代理是处于407认证状态的<br>-q    #  When processing more than 150 requests, ab outputs a progress count<br>      # on  stderr  every  10% or 100 requests or so. The -q flag will sup‐<br>      # press these messages.<br>-s    #  When compiled in (ab -h will show you) use the SSL protected  https<br>      # rather  than  the  http  protocol. This feature is experimental and<br>      # very rudimentary. You probably do not want to use it.<br>-S    #  Do not display the median and standard deviation values,  nor  dis‐<br>      # play  the  warning/error  messages  when the average and median are<br>      # more than one or two times the standard deviation  apart.  And  de‐<br>      # fault to the min/avg/max values. (legacy support).<br>-t timelimit<br>      #  设置测试的时间的长短，使用这个选项ab将自动设置<br>      # 测试请求会话数目为50000，然后以你设置的时间为<br>      # 固定周期.默认状态下是没有时限的，也就是直到完成<br>      # 你所设置的请求数目为止.<br>-T content-type<br>      # 内容类型标头,使用在POST数据的时候.<br>-v verbosity<br>      # 设置冗余级别,4级打印出每个请求标头的详细信息,<br>      # 3级打印出回应代码(例如,404,200),2级打印出警告 信息和指示消息<br>-V    # 显示版本号并且退出<br>-w    # 打印输出结果到HTML表中. 默认的表是两列n行白底黑框<br>-x <table>-attributes<br>      # 使用字串来描述表的属性,该属性字串应该插入到&lt;table 这里 &gt;<br>-X proxy[:port]<br>      # Use a proxy server for the requests.<br>-y <tr>-attributes<br>      # 用于生成html表格每行的属性名 (<tr>)<br>-z <td>-attributes<br>      # 用于生成html表格每列的属性名 (<td>)</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>郭源潮</title>
+    <url>/2021/03/29/%E9%83%AD%E6%BA%90%E6%9C%94/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>作词 : 宋冬野<br>作曲 : 宋冬野<br>你说你知道他们的世界<br>悲歌三首买一切<br>买昆仑落脚 蓬莱放思想<br>买人们的争执酿酒汤<br>买公主坟的乌鸦<br>事发之木和东窗之麻<br>买胭脂河里船行渔歌<br>黄金世界中万物法则<br>你我都一样 将被遗忘 郭源潮<br>你的病也和我的一样 风月难扯 离合不骚<br>层楼终究误少年 自由早晚乱余生<br>你我山前没相见 山后别相逢<br>买石灰街车站的海鸥<br>山水禽兽和年少一梦<br>买太平湖底陈年水墨<br>哥本哈根的童年传说<br>其实你我都一样 终将被遗忘 郭源潮<br>你的病也和我的一样 风月难扯 离合不骚<br>层楼终究误少年 自由早晚乱余生<br>你我山前没相见 山后别相逢<br>其实你我都一样 终将被遗忘 郭源潮<br>你的病也和我一样 风月难扯 离合不骚<br>层楼终究误少年 自由早晚乱余生<br>你我山前没相见 山后别相逢<br>你我山前没相见 山后别相逢<br>你我山前没相见 山后别相逢<br>歌有感想，不知无处安放，浮沉人生，叶落归根<br>自由早晚乱余生.</p>
+]]></content>
+  </entry>
 </search>
